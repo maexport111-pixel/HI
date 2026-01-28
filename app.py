@@ -74,7 +74,7 @@ def decode_protobuf(binary):
         return None
 
 def make_request(enc_uid, token):
-    url = "https://clientbp.ggwhitehawk.com/GetPlayerPersonalShow"
+    url = "https://clientbp.ggpolarbear.com/GetPlayerPersonalShow"
     headers = {
             'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_Z01QD Build/PI)",
             'Connection': "Keep-Alive",
@@ -94,7 +94,7 @@ def make_request(enc_uid, token):
 
 # ✅ إرسال لايك واحد
 async def send_request(enc_uid, token):
-    url = "https://clientbp.ggwhitehawk.com/LikeProfile"
+    url = "https://clientbp.ggpolarbear.com/LikeProfile"
     headers = {
             'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_Z01QD Build/PI)",
             'Connection': "Keep-Alive",
